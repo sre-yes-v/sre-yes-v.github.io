@@ -766,14 +766,14 @@ display: block;
 
 
 
-#preloader{
+/* #preloader{
     background: #000 url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdva2lpcHNvd2sxZ2VmcGo1d21teDE2c2hmcTZhczJnejkxYjg5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oeHLhzRkRX1bQQBPi/giphy.gif) no-repeat center center;
     background-size: 18%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
-}
+} */
 
 
 
@@ -782,6 +782,15 @@ display: block;
 
 /* media queries */
 
+
+@media (max-width:1351px) {
+    #nav1{margin-left: 600px;}
+
+
+    .service .box{width:28%;padding:10px;margin:14px 14px 14px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
+
+
+}
 
 
 
@@ -794,6 +803,8 @@ display: block;
 
 
 }
+
+
 
 @media (max-width:1225px) {
     #nav1{margin-left: 500px;}
@@ -846,7 +857,7 @@ display: block;
     
 
 
-    .service .box{width:30%;padding:12px;margin:50px 50px 0px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
+    .service .box{width:28%;padding:12px;margin:30px 30px 30px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
 
     .box:hover{transform: translateY(-5%);}
 
