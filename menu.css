@@ -766,14 +766,14 @@ display: block;
 
 
 
-/* #preloader{
+ #preloader{
     background: #000 url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHdva2lpcHNvd2sxZ2VmcGo1d21teDE2c2hmcTZhczJnejkxYjg5dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oeHLhzRkRX1bQQBPi/giphy.gif) no-repeat center center;
     background-size: 18%;
     height: 100vh;
     width: 100%;
     position: fixed;
     z-index: 100;
-} */
+} 
 
 
 
