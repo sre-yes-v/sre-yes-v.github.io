@@ -652,6 +652,7 @@ display: block;
     position: relative;
 }
 
+
 .contacts h1{
     position: relative;
     top: 0;
@@ -750,13 +751,13 @@ display: block;
     
 }
 
-.footerbutton:hover{opacity: 1;}
+.footer button:hover{opacity: 1;}
 
 
 
 
 
-#navbar{display: flex;flex-direction: row;transition: all 0.5s;top:0;margin-left: 490px}
+#navbar{position: relative;display: flex;flex-direction: row;transition: all 0.5s;top:0;left: 36%;}
 #navbar li{list-style: none;}
 #navbar li a{text-decoration: none;text-align: center;font-family: 'Raleway',sans-serif;color:var(--secondary-color);display: block;padding: 10px 10px;transition: all 0.7s;opacity: 0.5;}
 #navbar li:hover a{opacity: 1;}
@@ -788,7 +789,7 @@ display: block;
 
 
     .service .box{width:28%;padding:10px;margin:14px 14px 14px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
-
+    #navbar{left:33%}
 
 }
 
@@ -799,7 +800,7 @@ display: block;
 
     .service .box{width:28%;padding:10px;margin:14px 14px 14px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
 
-
+    #navbar{left:33%}
 }
 
 
@@ -810,6 +811,7 @@ display: block;
 
 
     .service .box{width:30%;padding:10px;margin:5px 5px 5px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
+    #navbar{left:33%}
 
 
 }
@@ -832,6 +834,7 @@ display: block;
     
     
 
+    #navbar{left:32%}
 
 
 
@@ -872,6 +875,7 @@ display: block;
     .box:hover{transform: translateY(-5%);}
 
 
+    #navbar{left:30%}
 
 
 }
@@ -900,6 +904,9 @@ display: block;
     .service .box{width:30%;padding:20px;margin:10px 10px 10px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
     .box:hover{transform: translateY(-5%);}
 
+    #navbar{left:29%}
+
+
 }
 
 @media (max-width:920px) {
@@ -916,6 +923,7 @@ display: block;
     }
      
 
+    #navbar{left:26%}
 
 }
 
@@ -933,6 +941,9 @@ display: block;
     .service .box{width:40%;padding:20px;margin:10px 10px 0px;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
     .box:hover{transform: translateY(-5%);}
 
+    #navbar{left:23%}
+
+
 }
 
 
@@ -945,6 +956,7 @@ display: block;
     .box:hover{transform: translateY(-5%);}
 
 
+    #navbar{left:20%}
   
 
 }
@@ -1117,7 +1129,7 @@ width:50px;
 
 
 
-#navbar{display: flex;flex-direction: row;transition: all 0.5s;top:0;margin-left: -15px;}
+#navbar{left:16%}
 
 
 
@@ -1147,7 +1159,7 @@ width:50px;
     .des{margin-left:60px; top:45%;}
 
     
- 
+    #navbar{left:5%}
     
     
 
@@ -1267,7 +1279,7 @@ width:50px;
 .box:hover{transform: translateY(-5%);}
 
 
-#navbar{display: flex;flex-direction: row;transition: all 0.5s;top:0;margin-left: -28px;}
+#navbar{left:-10%}
 
 
         
@@ -1289,7 +1301,7 @@ width:50px;
             .contacts button{position: relative;width: 200px;margin: 10px auto;right:5%}
 
 
-            #navbar{display: flex;flex-direction: row;transition: all 0.5s;top:0;margin-left: -40px;}
+            #navbar{left:-7%}
             #navbar li{list-style: none;}
             #navbar li a{text-decoration: none;text-align: center;font-family: 'Raleway',sans-serif;color:var(--secondary-color);display: block;padding: 5px 5px;transition: all 0.7s;opacity: 0.5;}
             #navbar li:hover a{opacity: 1;}
