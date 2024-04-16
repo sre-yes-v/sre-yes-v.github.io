@@ -1241,6 +1241,51 @@ width:50px;
 .skills{  grid-template-columns: repeat(1,1fr);}
 
 
+.skill-bar .bar .progress-html{
+    width:65%;
+}
+
+@keyframes move-html {
+    0%{width: 0%;};
+    100%{width: 65%;}
+}
+
+
+
+.skill-bar .bar .progress-css{
+    width:57%;
+}
+
+@keyframes move-css {
+    0%{width: 0%;};
+    100%{width: 57%;}
+}
+
+
+.skill-bar .bar .progress-js{
+    width:50%;
+}
+
+@keyframes move-js {
+    0%{width: 0%;};
+    100%{width: 50%;}
+}
+
+
+
+.skill-bar .bar .progress-react{
+    width:40%;
+}
+
+@keyframes move-react {
+    0%{width: 0%;};
+    100%{width: 40%;}
+}
+
+
+
+
+
     
 .service .box{position: relative;left: 20%;width:50%;padding:20px;margin:20px auto;border-radius:10%;background:url(image/bg.png);box-shadow: 0 0 15px #000;transform: translateY(0);transition: transform 0.7s ease-in-out;}
 .box:hover{transform: translateY(-5%);}
