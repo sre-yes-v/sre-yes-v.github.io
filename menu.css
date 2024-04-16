@@ -464,6 +464,122 @@ bottom:10%
 
 
 
+.skills{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 35px;
+}
+
+.skills .skill-bar .text{
+    color: var(--secondary-color);
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content:space-between;
+    padding: 0 10px;
+}
+
+
+.skill-bar .bar{
+    margin: 10px 20px;
+    width: 80%;
+    height: 10px;
+    background-color: grey;
+    opacity: 0.6;
+    border-radius: 25px;
+    margin-top: 5px;
+}
+
+.skill-bar .bar span{
+    width: 20%;
+    height: 10px;
+    position: absolute;
+    background: red;
+    border-radius: 25px;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.skill-bar .bar span:hover{
+    filter: drop-shadow(0px 0px 10px red);
+}
+
+
+.skill-bar .bar .progress-html{
+    width: 20%;
+    animation: move-html 1s ease-in-out;
+}
+
+
+.skill-bar .bar .progress-css{
+    width: 18%;
+    animation: move-css 1s ease-in-out;
+}
+
+
+
+
+.skill-bar .bar .progress-js{
+    width: 14%;
+    animation: move-js 1s ease-in-out;
+}
+
+
+
+.skill-bar .bar .progress-react{
+    width: 12%;
+    animation: move-react 1s ease-in-out;
+}
+
+
+
+
+
+
+@keyframes move-html {
+    0%{width:0%}
+    100%{width:20%}
+    
+}
+
+
+
+@keyframes move-css {
+    0%{width:0%}
+    100%{width:18%}
+    
+}
+
+
+
+
+@keyframes move-js {
+    0%{width:0%}
+    100%{width:14%}
+    
+}
+
+
+
+@keyframes move-react {
+    0%{width:0%}
+    100%{width:12%}
+    
+}
+
+
+
+@keyframes move-html {
+    0%{width:0%}
+    100%{width:20%}
+    
+}
+
+
+
 
 
 
@@ -1121,6 +1237,8 @@ width:50px;
     color: var(--secondary-color);
 }
 
+
+.skills{  grid-template-columns: repeat(1,1fr);}
 
 
     
