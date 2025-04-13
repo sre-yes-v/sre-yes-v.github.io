@@ -509,13 +509,13 @@ bottom:10%
 
 
 .skill-bar .bar .progress-html{
-    width: 20%;
+    width: 30%;
     animation: move-html 1s ease-in-out;
 }
 
 
 .skill-bar .bar .progress-css{
-    width: 18%;
+    width: 24%;
     animation: move-css 1s ease-in-out;
 }
 
@@ -523,14 +523,14 @@ bottom:10%
 
 
 .skill-bar .bar .progress-js{
-    width: 14%;
+    width: 16%;
     animation: move-js 1s ease-in-out;
 }
 
 
 
 .skill-bar .bar .progress-react{
-    width: 12%;
+    width: 10%;
     animation: move-react 1s ease-in-out;
 }
 
